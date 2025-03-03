@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hive - Servidor Modular</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">The Hive</div>
+        <nav>
+            <ul>
+                <li><a href="#caracteristicas">Características</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <a href="#reserva" class="cta">¡Reserva ahora y obtén 20% de descuento!</a>
+    </header>
+
+    <section class="hero">
+        <h1>El servidor modular que crece contigo</h1>
+        <p>Económico, eficiente y compatible con Raspberry Pi.</p>
+        <form class="subscription-form">
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Tu correo electrónico" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section id="caracteristicas">
+        <h2>¿Por qué elegir The Hive?</h2>
+        <ul>
+            <li>🔧 Modularidad: Añade nodos según tus necesidades.</li>
+            <li>💰 Bajo costo: Hasta un 50% más barato que servidores tradicionales.</li>
+            <li>🌱 Eficiencia energética: Reduce tu huella de carbono.</li>
+            <li>🔌 Compatibilidad: Funciona con Raspberry Pi y más.</li>
+        </ul>
+    </section>
+
+    <section id="beneficios">
+        <h2>Beneficios de The Hive</h2>
+        <p>✔️ Escalabilidad sin límites</p>
+        <p>✔️ Fácil de instalar y configurar</p>
+        <p>✔️ Soporte técnico especializado</p>
+    </section>
+
+    <section id="testimonios">
+        <h2>Lo que dicen nuestros usuarios</h2>
+        <blockquote>"Con The Hive, hemos reducido costos en un 30%." - Juan Pérez</blockquote>
+        <blockquote>"Perfecto para nuestros proyectos DIY." - María López</blockquote>
+    </section>
+
+    <section id="faq">
+        <h2>Preguntas Frecuentes</h2>
+        <p><strong>¿Es compatible con Raspberry Pi?</strong> Sí, funciona perfectamente.</p>
+        <p><strong>¿Cuánto cuesta?</strong> Desde €200, con opciones de expansión.</p>
+        <p><strong>¿Ofrecen soporte técnico?</strong> Sí, soporte prioritario para clientes.</p>
+    </section>
+
+    <footer>
+        <p>Contacto: info@thehive.com | Tel: +34 123 456 789</p>
+        <p>© 2025 The Hive - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
